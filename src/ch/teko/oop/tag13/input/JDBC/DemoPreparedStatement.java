@@ -6,7 +6,7 @@ public class DemoPreparedStatement {
     public static void main(String[] args) {
         // Pfad zur Datenbank
         // individuell anpassen!!!
-        String url = "jdbc:sqlite:/Users/glausm/Desktop/JDBCTutorial/chinook.db";
+        String url = "jdbc:sqlite:/Users/glm/Desktop/JDBCTutorial/chinook.db";
 
         // Connection Objekt zur Datenbank
         Connection conn = null;

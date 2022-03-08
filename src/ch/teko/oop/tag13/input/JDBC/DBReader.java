@@ -47,7 +47,7 @@ public class DBReader {
         DBReader dbReader = new DBReader();
         String placeholder = dbReader.readStringFromCommandLine();
         // url anpassen!!!
-        Connection conn = dbReader.getDBConnection("jdbc:sqlite:/Users/glausm/Desktop/JDBCTutorial/chinook.db");
+        Connection conn = dbReader.getDBConnection("jdbc:sqlite:/Users/glm/Desktop/JDBCTutorial/chinook.db");
         ResultSet rs = dbReader.getResultsFromDB(conn, placeholder);
 
         // ResultSet auslesen
