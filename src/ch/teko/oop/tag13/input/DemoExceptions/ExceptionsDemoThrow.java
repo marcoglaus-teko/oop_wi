@@ -13,5 +13,6 @@ public class ExceptionsDemoThrow {
             throw new IllegalArgumentException("wrong user");
 
         System.out.println("Username: " + userName + " is logged in.");  // Output user input
+
     }
 }
