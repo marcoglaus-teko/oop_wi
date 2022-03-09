@@ -7,7 +7,7 @@ import java.io.FileWriter;
  */
 public class ExceptionsDemo {
     public static void main(String[] args) {
-        String data = "This is the data in the output file";
+        String data = "Es ist ein Test";
 
         try {
             // Creates a FileWriter

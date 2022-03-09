@@ -33,7 +33,7 @@ public class DBReader {
             PreparedStatement ps = conn.prepareStatement(sql);
 
             // Platzhalter ? befüllen
-            ps.setString(1, "Black Sabbath");
+            ps.setString(1, placeholder);
 
             // ResultSet
             return ps.executeQuery();
